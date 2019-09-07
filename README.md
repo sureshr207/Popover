@@ -4,7 +4,9 @@ Can be used in both Swift and Objective C.
 
 
 Example - Swift
+
 func show(view: UIView) {
+
     // Create a data source
     let spiceList = ["A", "B", "C", "D"]
     // Init a popover with a callback closure after selecting data
@@ -15,4 +17,5 @@ func show(view: UIView) {
     // Assign data to the dataList
     popover.dropdownList = spiceList
     present(popover, animated: true, completion: nil)
+    
 }
