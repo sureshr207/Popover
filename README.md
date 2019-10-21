@@ -15,6 +15,7 @@ func show(view: UIView) {
     }
     // Assign data to the dataList
     popover.dropdownList = spiceList
+    // popover.arrowDirection = [] (If you want pop over in center of screen)
     present(popover, animated: true, completion: nil)
 }
 ```
